@@ -1,0 +1,6 @@
+---
+username: hogehoge
+group: users
+shell:
+  bash: /bin/bash
+  zsh: /bin/zsh

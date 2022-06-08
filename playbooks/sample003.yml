@@ -1,0 +1,8 @@
+---
+- name: ホスト名変更
+  hosts: node1
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - change_hostname

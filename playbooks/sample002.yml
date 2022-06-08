@@ -1,0 +1,15 @@
+---
+- name: localhost test Playbook
+  hosts: localhost
+  gather_facts: yes
+
+  vars:
+    test_variable:
+      - 10
+      - 20
+      - 30
+
+  tasks:
+    - name: hello world
+      debug:
+        msg: { { test_variable | default(max) } }
