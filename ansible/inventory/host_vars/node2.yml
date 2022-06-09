@@ -1,3 +1,0 @@
-# DNS-Master
-ansible_host: 192.168.0.40
-ansible_user: ansible
